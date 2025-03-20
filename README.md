@@ -1,4 +1,87 @@
-# 🚀 Technical Challenge: Renewable Energy Projects Visualization
+# 🌍 Visualizador de Proyectos de Energía Renovable
+
+## 📋 Requisitos Previos
+- Python 3.8 o superior
+- Node.js 14.0 o superior
+- npm 6.0 o superior
+
+## 🚀 Instalación
+
+### Backend (Python)
+
+1. Crear un entorno virtual:
+```bash
+python -m venv venv
+```
+
+2. Activar el entorno virtual:
+- En Windows:
+```bash
+.\venv\Scripts\activate
+```
+- En Linux/Mac:
+```bash
+source venv/bin/activate
+```
+
+3. Instalar las dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+### Frontend (React)
+
+1. Navegar al directorio del frontend:
+```bash
+cd frontend
+```
+
+2. Instalar las dependencias:
+```bash
+npm install
+```
+
+## 🔧 Ejecución del Proyecto
+
+### Backend
+
+1. Asegúrate de estar en el directorio raíz del proyecto
+2. Activa el entorno virtual si no está activado
+3. Ejecuta el servidor:
+```bash
+python main.py
+```
+El servidor estará disponible en `http://localhost:5000`
+
+### Frontend
+
+1. En una nueva terminal, navega al directorio del frontend:
+```bash
+cd frontend
+```
+
+2. Inicia la aplicación:
+```bash
+npm start
+```
+La aplicación estará disponible en `http://localhost:3000`
+
+## 📝 Notas Importantes
+- Asegúrate de que el backend esté corriendo antes de iniciar el frontend
+- Verifica que los puertos 3000 y 5000 estén disponibles
+- Para detener cualquiera de los servidores, presiona `Ctrl + C` en la terminal correspondiente
+
+## 🔍 Estructura del Proyecto
+```
+proyecto/
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
+├── frontend/
+│   ├── package.json
+│   └── src/
+└── README.md
+```
 
 ## 📌 Objective  
 Develop a Full Stack application that allows users to visualize renewable energy projects on an interactive map and in a list view. Users should be able to filter projects by type.
