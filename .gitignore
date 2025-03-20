@@ -1,0 +1,85 @@
+# Dependencias
+**/node_modules/
+**/.pnp
+**/.pnp.js
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+
+# Entornos virtuales de Python
+**/venv/
+**/env/
+**/.env/
+**/.venv/
+**/ENV/
+**/.ENV/
+
+# Variables de entorno
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Archivos de construcción
+**/.next/
+**/out/
+**/build
+**/dist
+
+# Archivos de caché
+**/.cache/
+**/.npm
+**/.eslintcache
+**/.stylelintcache
+
+# Archivos de IDE y editores
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+**/.DS_Store
+**/Thumbs.db
+
+# Archivos de logs
+**/logs/
+**/*.log
+
+# Archivos de cobertura de pruebas
+**/coverage
+
+# Archivos temporales
+**/*.tmp
+**/*.temp
+**/.temp/
+
+# Archivos de sistema
+**/.DS_Store
+**/*.pem
+
+# Archivos de debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Archivos de caché de Next.js
+**/.next/cache/
+
+# Archivos de caché de TypeScript
+**/*.tsbuildinfo
+
+# Archivos de caché de Vercel
+**/.vercel
+
+# Archivos de caché de Turbo
+**/.turbo
+
+# Archivos de caché de PWA
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map 
